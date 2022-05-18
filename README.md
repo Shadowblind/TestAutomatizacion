@@ -1,8 +1,4 @@
-##Test Automatizacion
-
-
-
-## Test Automatizacion formulario de demoqa
+## Test Automatizacion formulario demoqa
 
 El programa automatiza las siguientes acciones
 1.Acceder a Página de prueba: https://demoqa.com/ .
@@ -26,7 +22,10 @@ El programa automatiza las siguientes acciones
 ## Detalle de configuracion
 Este programa hace uso de ChromeDriver para la visualizacion de las acciones automatizadas en tiempo real dentro de un sitio web. Es necesario tener instalado Google Chrome en su version 101.0.4951 (https://chromedriver.chromium.org/downloads/version-selection)
 
-##
+## gitDetalles de Instalacion
+- git clone https://github.com/Shadowblind/TestAutomatizacion
+- Abrir Visual Studio Code -> Open Folder -> Seleccionar la carpeta "TestAutomatizacion"
+- Ejecutar App.java
 
 
 
