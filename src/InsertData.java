@@ -142,27 +142,7 @@ public class InsertData {
 
     }
 
-    public void selectOptionWithText(String textToSelect) {
-        try {
-            WebElement autoOptions = driver.findElement(By.id("ui-id-1"));
-            new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(autoOptions));
-    
-            List<WebElement> optionsToSelect = autoOptions.findElements(By.tagName("li"));
-            for(WebElement option : optionsToSelect){
-                if(option.getText().equals(textToSelect)) {
-                    System.out.println("Trying to select: "+textToSelect);
-                    option.click();
-                    break;
-                }
-            }
-            
-        } catch (NoSuchElementException e) {
-            System.out.println(e.getStackTrace());
-        }
-        catch (Exception e) {
-            System.out.println(e.getStackTrace());
-        }
-    }
+   
     
     
 }
