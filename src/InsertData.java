@@ -72,7 +72,7 @@ public class InsertData {
             WebElement gender = driver.findElement(By.cssSelector("label[for='gender-radio-2']"));
             gender.click();
         }
-        if(genderInput.equals("Male")){
+        if(genderInput.equals("Other")){
             WebElement gender = driver.findElement(By.cssSelector("label[for='gender-radio-3']"));
             gender.click();
         }
